@@ -28,34 +28,34 @@
   },
   "resources": [
     {
-      "name": "LME Boundaries Polygon Updated 2013-08",
-      "path": "level-01/json/glwd_1.geojson",
+      "name": "GeoJSON LME Boundaries Polygon Updated 2013-08",
+      "path": "polygon/json/lme66.geojson",
       "format": "geojson",
       "mediatype": "application/json",
-      "bytes": 28006
+      "bytes": 17303
     },
     {
-      "name": "LME Boundaries Polygon Updated 2013-08",
-      "path": "json/glwd_1.topojson",
+      "name": "TopoJSON LME Boundaries Polygon Updated 2013-08",
+      "path": "polygon/json/lme66.topojson",
       "format": "topojson",
       "mediatype": "application/json",
-      "bytes":   8923
+      "bytes":   5472
     }
   ],
   "resources": [
     {
-      "name": "LME Boundaries Offshore Updated 2013-08",
-      "path": "json/glwd_2.zip",
-      "format": "compressed geojson",
+      "name": "GeoJSON LME Boundaries Offshore Updated 2013-08",
+      "path": "offshore/json/lme66-offshore.geojson",
+      "format": "geojson",
       "mediatype": "application/json",
-      "bytes": 30188
+      "bytes": 760
     },
     {
       "name": "LME Boundaries Offshore Updated 2013-08",
-      "path": "json/glwd_2.topojson",
+      "path": "offshore/json/lme66-offshore.topojson",
       "format": "topojson",
       "mediatype": "application/json",
-      "bytes":  50406
+      "bytes":  217
     }
   ]
   "bugs": {
