@@ -1,0 +1,65 @@
+{
+  "name": "lme-large-marine-ecosystems",
+  "title": "LME (Large Marine Ecosystems) of the World",
+  "version": "0.1.0",
+  "description": "geodata data package providing geojson polygons and shapefiles for LME (Large Marine Ecosystems)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/datasets/lme-large-marine-ecosystems.git"
+  },
+  "sources": [{
+    "name": "LME (Large Marine Ecosystems) of the World",
+    "web": "http://www.lme.noaa.gov/index.php?option=com_content&view=article&id=177&Itemid=75"
+  }],
+  "keywords": [
+    "topojson",
+    "shapefile",
+    "marine",
+    "ecosystems",
+    "lme",
+    "geojson",
+    "spatialdata",
+    "geodata",
+    "vector"
+  ],
+  "licenses": {
+    "type": "ODC-PDDL",
+    "url": "http://opendatacommons.org/licenses/pddl/1.0/"
+  },
+  "resources": [
+    {
+      "name": "LME Boundaries Polygon Updated 2013-08",
+      "path": "level-01/json/glwd_1.geojson",
+      "format": "geojson",
+      "mediatype": "application/json",
+      "bytes": 28006
+    },
+    {
+      "name": "LME Boundaries Polygon Updated 2013-08",
+      "path": "json/glwd_1.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":   8923
+    }
+  ],
+  "resources": [
+    {
+      "name": "LME Boundaries Offshore Updated 2013-08",
+      "path": "json/glwd_2.zip",
+      "format": "compressed geojson",
+      "mediatype": "application/json",
+      "bytes": 30188
+    },
+    {
+      "name": "LME Boundaries Offshore Updated 2013-08",
+      "path": "json/glwd_2.topojson",
+      "format": "topojson",
+      "mediatype": "application/json",
+      "bytes":  50406
+    }
+  ]
+  "bugs": {
+    "url": "https://github.com/datasets/lme-large-marine-ecosystems/issues"
+  },
+  "homepage": "https://github.com/datasets/lme-large-marine-ecosystems/"
+}
