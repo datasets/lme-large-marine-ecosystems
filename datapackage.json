@@ -22,10 +22,10 @@
     "geodata",
     "vector"
   ],
-  "licenses": {
+  "licenses": [{
     "type": "ODC-PDDL",
     "url": "http://opendatacommons.org/licenses/pddl/1.0/"
-  },
+  }],
   "resources": [
     {
       "name": "GeoJSON LME Boundaries Polygon Updated 2013-08",
@@ -40,9 +40,7 @@
       "format": "topojson",
       "mediatype": "application/json",
       "bytes":   5472
-    }
-  ],
-  "resources": [
+    },
     {
       "name": "GeoJSON LME Boundaries Offshore Updated 2013-08",
       "path": "offshore/json/lme66-offshore.geojson",
